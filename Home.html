@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+    <style>
+
+        body{
+            background-color: rgb(29, 2, 58);
+        }
+
+        .hero-image {
+            width: 80%;
+            height: 80%;
+        }
+
+        .hero-image2 {
+            position : absolute;
+            width: 19.99%;
+            height: 40%;
+            margin-top: 180px;
+            margin-left: 5px;
+        }
+
+        .goto-button {
+            background-color: rgb(29, 2, 58);
+            font-size: 15px;
+            font-weight: bold;
+            color: white;
+            padding: 10px 20px;
+             border-radius: 6px;
+            cursor: pointer;
+            position: fixed;
+            margin-left: 80px;
+            margin-top: 600px;
+            height: 60px;
+            width: 150px;
+        }
+
+        .goto-button:hover {
+            background-color: rgb(55, 15, 95);
+            opacity: 0.7;
+            transition: 0.3s;
+            box-shadow: 0 8px 16px 0 rgba(249, 249, 249, 0.5);
+        }
+
+        .goto-button:active {
+            background-color: rgb(40, 8, 75);
+            box-shadow: 0 5px #666;
+            transform: translateY(4px);
+        }
+    </style>
+</head>
+<body>
+    <img src = "images\prj1.png" alt = "Image" class = "hero-image">
+    <button class ="goto-button"> Get Started </button>
+    <img src = "images\prj2.png" alt = "Image" class = "hero-image2">
+</body>
+</html>
